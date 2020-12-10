@@ -1,0 +1,201 @@
+
+
+/* ==========================================================================
+   List of CSS
+         1. Global
+            a. Layout
+            b. Color
+            c. Typography
+            d. Utilities
+         2. Main
+
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   01. Global
+   ========================================================================== */
+
+
+/* a. Layout ================== */
+
+
+html,
+body {
+    height: 100%;
+    font-family: 'Lora', serif;
+    font-size: 1.0625rem;
+    color: #171f21;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* b. Color ================== */
+
+
+.dark-blue {
+    color: #001f2c;
+}
+
+.dark-blue-b {
+    background-color: #001f2c;
+}
+
+.red {
+   color: #e75252;
+}
+
+.red-b {
+    background-color: #e75252;
+}
+
+.gold {
+    color: #a4814e;
+}
+
+.gold-b {
+    background-color: #a4814e;
+}
+
+.gray-90 {
+    color: #232728;
+}
+
+.gray-90-b {
+    background-color: #232728;
+}
+
+.black {
+    color: #171f21;
+}
+
+.black-b {
+    background-color: #171f21;
+}
+
+
+/* c. Typography ================== */
+
+.kor {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.7;
+}
+
+
+/* d. Utilities ================== */
+
+.divider {
+    width: 30px;
+    height: 1px;
+    background: #e75252;
+    display: inline-block;
+    margin: 0.3em 0 0.4em 0;
+}
+
+
+
+/* ==========================================================================
+   02. Main
+   ========================================================================== */
+
+
+/* Cover.css Copy */
+
+
+.main-header-wrap {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .3);
+
+}
+
+.viewport-header {
+    position: relative;
+    height: 85vh;
+    text-align: center;
+    display: flex;
+
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .15rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+.vertical-text {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 19px;
+}
+
+.vertical-text:before {
+    content: '';
+    width: 1px;
+    height: 50px;
+    background: #fff;
+    display: block;
+    position: relative;
+    top: -60px;
+    left: 33px;
+
+}
+
+.copy-right {
+    font-size: 15px;
+    color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
