@@ -87,9 +87,13 @@ video {
 
 .kor {
     font-family: 'Noto Sans KR', sans-serif;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
+
+p.kor {
+    font-size: 17px;
+}
 
 /* d. Utilities ================== */
 
@@ -109,7 +113,9 @@ video {
     filter: opacity(70%);
 }
 
-
+a.img-hover:hover {
+    color: #fff;
+}
 
 
 /* ==========================================================================
@@ -197,11 +203,23 @@ video {
 
 
 
+@media (min-width: 1440px) {
+    .offset-xxl-3 {
+        margin-left: 25%;
+    }
 
+    .col-xxl-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 
-
-
-
+.main-cost-img {
+    background: url("/bonita/assets/img/main-img-04.jpg");
+    background-size: cover;
+}
 
 
 
