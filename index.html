@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
           rel="stylesheet">
 
-    <title>Cover Template for Bootstrap</title>
+    <title>Bonita Tailor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -30,12 +30,22 @@
     <header class="masthead">
         <div class="container">
             <div class="masthead-brand">
-                <img src="assets/img/bt-logo.png" width="170"/>
+                <a href="index.html"><img src="assets/img/bt-logo.png" width="170"/></a>
             </div>
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="#">About</a>
-                <a class="nav-link" href="#">Collections</a>
-                <a class="nav-link" href="#">Price</a>
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="sub/about.html">About</a>
+                <div class="dropdown mx-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Collections
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="sub/classicSuit.html">Classic Suit</a>
+                        <a class="dropdown-item" href="sub/wedding.html">Wedding</a>
+                    </div>
+                </div>
+                <a class="nav-link" href="sub/price.html">Price</a>
                 <a class="nav-link" href="#">Contact</a>
             </nav>
         </div>
@@ -59,7 +69,7 @@
         </div>
     </div>
 
-    <div class="row m-0 py-5 my-5">
+    <div class="row m-0 py-5 main-df-img">
         <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
 
             <h2 class="font-weight-light mb-0">What makes us different</h2>
@@ -72,6 +82,7 @@
             <br><br><br><br><br>
             <h2 class="font-weight-light mb-0">Canvas Construction</h2>
             <div class="divider"></div>
+            <img src="assets/img/main-img-08.png" width="100%"/>
         </div>
     </div>
 
@@ -165,7 +176,7 @@
 
     <div class="row m-0 gray-90-b text-white py-5">
         <div class="col-12 pl-5">
-            <img src="assets/img/bt-logo.png" width="170"/>
+            <a href="index.html"><img src="assets/img/bt-logo.png" width="170"/></a>
         </div>
         <div class="col-xl-5 mt-5 pl-5">
             <p class="kor">보니타테일러 찾아오시는 길</p>
@@ -237,13 +248,14 @@
 </footer>
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
