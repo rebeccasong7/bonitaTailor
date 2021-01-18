@@ -70,6 +70,10 @@ video {
     color: #a4814e;
 }
 
+a.gold:hover {
+    color: #967647;
+}
+
 .gold-b {
     background-color: #a4814e;
 }
