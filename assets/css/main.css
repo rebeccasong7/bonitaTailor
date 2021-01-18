@@ -314,30 +314,48 @@ a.img-hover:hover {
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .col-xxl-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .offset-xxl-4 {
+        margin-left: 33.333333%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-df-img {
+        background: none !important;
+    }
 }
 
 .main-df-img {
-    background: url("/bonita/assets/img/main-img-00.png");
-    background-size: cover;
+    background: url("../img/main-img-00.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .main-cost-img {
-    background: url("/bonita/assets/img/main-img-04.jpg");
+    background: url("../img/main-img-04.jpg");
     background-size: cover;
 }
 
 .about-img {
-    background: url("/bonita/assets/img/about-img-01.jpg");
+    background: url("../img/about-img-01.jpg");
     background-size: cover;
 }
 
 .about-img-tailor {
-    background: url("/bonita/assets/img/about-img-03.jpg");
+    background: url("../img/about-img-03.jpg");
     background-size: cover;
 }
 
 .about-img-letter {
-    background: url("/bonita/assets/img/about-img-04.png");
+    background: url("../img/about-img-04.png");
     background-size: cover;
     background-position: center;
 }
