@@ -27,29 +27,38 @@
 
 <video src="assets/img/main.mp4" autoplay loop playsinline muted></video>
 
+
 <div class="mx-auto flex-column main-header-wrap viewport-header">
     <!--<div class="p-1"></div>-->
     <header class="masthead p-3">
-        <div class="container">
+        <div class="container navbar navbar-expand-lg">
             <div class="masthead-brand">
                 <a href="index.html"><img src="assets/img/bt-logo.png" width="170"/></a>
             </div>
-            <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="index.html">Home</a>
-                <a class="nav-link" href="sub/about.html">About</a>
-                <div class="dropdown mx-3">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Collections
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="sub/classicSuit.html">Classic Suit</a>
-                        <a class="dropdown-item" href="sub/wedding.html">Wedding</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <nav class="navbar nav-masthead justify-content-center">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="sub/about.html">About</a>
+                    <div class="dropdown mx-md-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Collections
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="sub/classicSuit.html">Classic Suit</a>
+                            <a class="dropdown-item" href="sub/wedding.html">Wedding</a>
+                        </div>
                     </div>
-                </div>
-                <a class="nav-link" href="sub/price.html">Price</a>
-                <a class="nav-link" href="sub/contact.html">Contact</a>
-            </nav>
+                    <a class="nav-link" href="sub/price.html">Price</a>
+                    <a class="nav-link" href="sub/contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -91,10 +100,10 @@
                 <div class="col-lg-6">
                     <span class="kor font-weight-bold">보니타 테일러 수트 제작 상세</span>
                     <ul class="mt-2">
-                        <li class="kor"><b>평균 제작기간:</b>  4~6주정도 소요</li>
+                        <li class="kor"><b>평균 제작기간:</b> 4~6주정도 소요</li>
                         <li class="kor"><b>제작 방법:</b> 비스포크(수제)/수미주라(반수제)</li>
                         <li class="kor"><b>제작 공정:</b> 체촌(체형 및 사이즈 측정) - 재단 - 가봉 - 재봉 - 완성</li>
-                        <li class="kor"><b>원단:</b> 이탈리아 원단/영국 원단</li>
+                        <li class="kor"><b>원단:</b> 이탈리아 원단/영국 원단/국내 원단</li>
                         <li class="kor">
                             <span class="font-weight-bold dark-red-b text-white py-1 px-2">
                                 보니타만의 혜택
@@ -172,9 +181,11 @@
                 <p class="kor">
                     보니타테일러와 함께 세상에서 가장 멋진 자신만의 개성 있는 수트를 제작해 보세요. 성심성의껏 고객님과 함께하겠습니다.
                 </p>
-                <button type="button" class="btn border-2 border-white font-weight-bold gold-b text-white w-100">
-                    <span class="kor">수트 제작 문의하기</span>
-                </button>
+                <a href="https://m.booking.naver.com/booking/8/bizes/85673" target="_blank" rel="noopener">
+                    <button type="button" class="btn border-2 border-white font-weight-bold gold-b text-white w-100">
+                        <span class="kor">수트 제작 문의하기</span>
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -207,7 +218,8 @@
                 <div class="col-xl-5 pl-xl-5 ml-xl-3">
                     <a href="index.html"><img class="mb-3" src="assets/img/bt-logo.png" width="170"/></a>
                     <p class="kor">보니타테일러 찾아오시는 길</p>
-                    <div id="daumRoughmapContainer1608418141768" class="w-100 root_daum_roughmap root_daum_roughmap_landing"></div>
+                    <div id="daumRoughmapContainer1608418141768"
+                         class="w-100 root_daum_roughmap root_daum_roughmap_landing"></div>
 
                 </div>
                 <div class="col-xl-3 pl-xl-3 mt-xl-5">
@@ -295,12 +307,13 @@
 <script src="assets/js/affix.js"></script>
 
 
-<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<script charset="UTF-8" class="daum_roughmap_loader_script"
+        src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 <script charset="UTF-8">
     new daum.roughmap.Lander({
-        "timestamp" : "1608418141768",
-        "key" : "23j8g",
-        "mapHeight" : "360"
+        "timestamp": "1608418141768",
+        "key": "23j8g",
+        "mapHeight": "360"
     }).render();
 </script>
 </body>
