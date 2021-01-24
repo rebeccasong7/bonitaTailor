@@ -387,6 +387,24 @@ a.img-hover:hover {
     background-size: cover;
 }
 
+#pro-d {
+    display: none;
+}
+
+#pro-m {
+    display: block;
+}
+
+@media (min-width: 992px) {
+    #pro-d {
+        display: block;
+    }
+
+    #pro-m {
+        display: none;
+    }
+}
+
 .about-img {
     background: url("../img/about-img-01.jpg");
     background-size: cover;
