@@ -403,6 +403,13 @@ a.img-hover:hover {
     background-position: center;
 }
 
+@media (max-width: 767px) {
+
+    .about-img {
+        display: none;
+    }
+}
+
 
 .light-box .col-md-4 {
     padding: 5px;
