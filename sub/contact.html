@@ -20,6 +20,8 @@
 
     <!-- Custom styles for this template -->
     <link href="../assets/css/main.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -63,15 +65,15 @@
 
     <div class="container text-white">
         <br><br><br>
-        <h2 class="font-weight-light">Contact Us</h2>
+        <h2 class="font-weight-light" data-aos="fade-down" data-aos-duration="800">Contact Us</h2>
         <!-- * 카카오맵 - 지도퍼가기 -->
         <!-- 1. 지도 노드 -->
-        <div id="daumRoughmapContainer1608417922506" class="w-100 root_daum_roughmap root_daum_roughmap_landing"></div>
+        <div id="daumRoughmapContainer1608417922506" class="w-100 root_daum_roughmap root_daum_roughmap_landing" data-aos="fade-up" data-aos-duration="1000"></div>
 
 
 
         <div class="row">
-        <div class="col-lg-7 mt-5">
+        <div class="col-lg-7 mt-5" data-aos="flip-left" data-aos-duration="800">
             <h3 class="kor font-weight-bold">
                 오시는 길
             </h3>
@@ -102,7 +104,7 @@
             </div>
         </div>
 
-        <div class="col-lg-4 mt-5">
+        <div class="col-lg-4 mt-5" data-aos="flip-right" data-aos-duration="800">
             <h3 class="kor font-weight-bold">
                 문의전화
             </h3>
@@ -135,7 +137,7 @@
     </div>
 
 
-    <div class="row m-0 gray-90-b text-white py-5">
+    <div class="row m-0 gray-90-b text-white py-5" data-aos="fade-down"  data-aos-duration="1000">
         <div class="col-lg-10 offset-lg-1">
             <div class="row">
         <div class="col-xl-5 pl-xl-5 ml-xl-3">
@@ -203,7 +205,7 @@
 
 </main>
 
-<footer class="mt-auto">
+<footer class="mt-auto" data-aos="fade-down"  data-aos-duration="1200">
     <div class="row m-0 black-b text-center py-5">
         <div class="col-12">
             <p class="kor gold">
@@ -249,5 +251,11 @@
         "mapHeight" : "360"
     }).render();
 </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>

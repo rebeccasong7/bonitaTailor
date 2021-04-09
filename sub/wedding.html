@@ -24,6 +24,8 @@
     <!-- Custom styles for this template -->
     <link href="../assets/css/main.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -66,17 +68,17 @@
 <main role="main">
 
     <div class="container my-5">
-        <h2 class="font-weight-light">Wedding</h2>
-        <img src="../assets/img/wedding-img-01.jpg" width="100%"/>
+        <h2 class="font-weight-light" data-aos="fade-down" data-aos-duration="800">Wedding</h2>
+        <img src="../assets/img/wedding-img-01.jpg" width="100%" data-aos="fade-down" data-aos-duration="1200" />
         <br><br><br><br>
 
-        <h2 class="font-weight-light mb-0">We've Got Your Back</h2>
-        <div class="divider"></div>
-        <p class="kor">결혼이란 인생에서 가장 특별하고 기억에 남는 순간입니다. 보니타테일은 그 기쁨을 함께 누릴 수 있는 영광을 희망합니다. 인생에 가장 중요한 날인 만큼 최고의 퀄리티를 자랑하는
+        <h2 class="font-weight-light mb-0" data-aos="zoom-in" data-aos-duration="800">We've Got Your Back</h2>
+        <div class="divider" data-aos="zoom-in" data-aos-duration="800"></div>
+        <p class="kor" data-aos="zoom-in" data-aos-duration="800">결혼이란 인생에서 가장 특별하고 기억에 남는 순간입니다. 보니타테일은 그 기쁨을 함께 누릴 수 있는 영광을 희망합니다. 인생에 가장 중요한 날인 만큼 최고의 퀄리티를 자랑하는
             예복으로 아름답고 멋진 날의 주인공이 되어 보세요.</p>
 
         <br>
-        <div class="row light-box">
+        <div class="row light-box" data-aos="zoom-in" data-aos-duration="1200">
             <div class="col-md-4">
                 <a href="../assets/img/wedding/ate%20(3).jpg" data-toggle="lightbox" data-gallery="example-gallery">
                     <img src="../assets/img/wedding/ate%20(3).jpg" class="img-fluid">
@@ -144,7 +146,7 @@
     </div>
 
 
-        <div class="row m-0 gray-90-b text-white py-5">
+        <div class="row m-0 gray-90-b text-white py-5" data-aos="fade-down"  data-aos-duration="1000">
             <div class="col-lg-10 offset-lg-1">
                 <div class="row">
                     <div class="col-xl-5 pl-xl-5 ml-xl-3">
@@ -214,7 +216,7 @@
 
 </main>
 
-<footer class="mt-auto">
+<footer class="mt-auto" data-aos="fade-down" data-aos-duration="800">
     <div class="row m-0 black-b text-center py-5">
         <div class="col-12">
             <p class="kor gold">
@@ -261,5 +263,11 @@
         $(this).ekkoLightbox();
     });
 </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>
